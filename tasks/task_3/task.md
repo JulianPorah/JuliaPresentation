@@ -30,5 +30,6 @@ Multiple Dispatch means you can write the **same function name** but with **diff
    - One for `Int64` that prints "This is an integer: X"
    - One for `Float64` that prints "This is a decimal: X"
    - One for `String` that prints "This is text: X"
+   - One for everything else that prints "This type is not yet in a function: X"
 3. Test your function by calling it with different types
 4. Use `methods(describe)` to see all versions of your function

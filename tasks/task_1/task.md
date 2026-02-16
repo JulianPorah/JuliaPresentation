@@ -6,7 +6,7 @@ The dot notation tells Julia to apply an operation to **every element** of the a
 
 ---
 
-## Example if you want to see it
+## Example/Solution if you want to see it
 
 <details>
 <summary>Show Example</summary>
@@ -15,6 +15,7 @@ The dot notation tells Julia to apply an operation to **every element** of the a
 [1, 2, 3] .^ 2   # → [1, 4, 9]
 ```
 </details>
+```
 ## Tasks
 
 1. Create an array with at least 5 numbers of your choice
@@ -22,10 +23,4 @@ The dot notation tells Julia to apply an operation to **every element** of the a
 3. Try out different operations like `^`, `*`, `+`
 
 ---
-
-## Take it further
-
-Now write a function for the operation you chose and apply it to your array.
-
-> **Hint:** You will need knowledge from the previous exercise
-> <details><summary>Show Hint</summary>Use piping with <code>.|></code></details>
+> **Doku:** https://docs.julialang.org/en/v1/manual/mathematical-operations/#man-dot-operators
