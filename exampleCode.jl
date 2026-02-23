@@ -91,3 +91,19 @@ end
 
 # Using semicolons (equivalent to begin block)
 result2 = (x = 1; y = 2; x + y)
+
+# ============================================
+# STRUCT
+# ============================================
+struct test 
+	valueOne
+	valueTwo::String
+	valueThree::Int64
+end
+
+# With mutable struct you can not change the values inside
+mutable struct testTwo
+	valueOne
+	valueTwo::String
+	valueThree::Int64
+end

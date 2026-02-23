@@ -16,6 +16,7 @@ The dot notation tells Julia to apply an operation to **every element** of the a
 ```
 </details>
 ```
+
 ## Tasks
 
 1. Create an array with at least 5 numbers of your choice
