@@ -10,7 +10,6 @@ Use this as a quick reference while working on the tasks
 x = 10              # Type inferred automatically
 y::Int64 = 10       # Explicit type annotation
 
-
 # ============================================
 # FUNCTIONS
 # ============================================
@@ -76,7 +75,6 @@ end
 
 # Ternary operator (shorthand if)
 a > b ? println("a is greater") : println("b is greater")
-
 
 # ============================================
 # COMPOUND EXPRESSIONS
