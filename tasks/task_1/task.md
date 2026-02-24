@@ -15,7 +15,6 @@ The dot notation tells Julia to apply an operation to **every element** of the a
 [1, 2, 3] .^ 2   # → [1, 4, 9]
 ```
 </details>
-```
 
 ## Tasks
 
