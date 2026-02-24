@@ -1,6 +1,6 @@
 # Performance Benchmarking in Julia
 
-In this task we want to see **why Julia is fast** by implementing and benchmarking a simple algorithm and comparing it to Python.
+In this task we see **the speed of Julia** by implementing and benchmarking a simple algorithm and comparing it to Python.
 
 Julia was designed to solve the "two language problem" — you write code that's as readable as Python but runs as fast as C. Let's see this in action!
 

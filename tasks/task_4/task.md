@@ -28,8 +28,9 @@ In this task we want to visualize sales data in a graph.
     - inside the julia terminal type "]"
     - you will automaticly land inside the pkg terminal
     - write add Plots to install the package
-    - if you want to use the package you need to write "using" and then the package name   
+    - if you want to use the package you need to write "using" and then the package name inside the .jl file 
 2. Create an array with the months January to December as x-axis
+    - you can use the Dates package
 3. Come up with 12 sales numbers yourself and store them in an array as y-axis
 4. Plot the data using `plot()`
 5. Also add a title, and labels for x and y axis
@@ -40,21 +41,24 @@ In this task we want to visualize sales data in a graph.
 
 Create an **animated plot** that shows a moving sine wave!
 
-1. Use the `@animate` macro to create an animation
+1. Use the `@animate` to create an animation
 2. Create a loop that runs 100 frames
-3. In each frame, plot `sin(x)` with a shifting phase
-4. Save it as a GIF using `gif(anim, "wave.gif", fps=30)`
+3. In each frame:
+   - Create an x-axis from 0 to 10
+   - Calculate `sin(x + i/10)` where i is the frame number (this shifts the wave)
+   - Plot the sine wave
+4. Save the animation as a GIF using `gif(anim, "wave.gif", fps=30)`
 
 <details>
 <summary>Need a hint?</summary>
 
-    anim = @animate for i in 1:100
-        x = 1:20
-        y = sin.(x .+ i/10)
-        plot(x, y, legend=false, ylim=(-1.5, 1.5))
-    end
-    
-    gif(anim, "wave.gif", fps=30)
+    animation = @animate for i in 1:100
+    x = 0:0.1:10
+    y = sin.(x .+ i/10)
+    plot(x, y)
+end
+
+gif(animation,"wave.gif",fps=30)
 
 </details>
 
