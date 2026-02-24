@@ -7,7 +7,7 @@ Mutable structs let you **change the values of fields** after the object has bee
 
 ---
 
-## Example if you want to see it
+## Example if you want to see it /Kind of solution
 
 <details>
 <summary>Show Example</summary>

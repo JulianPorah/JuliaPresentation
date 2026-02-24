@@ -4,7 +4,7 @@ In this task we want to visualize sales data in a graph.
 
 ---
 
-## Example if you want to see it
+## Example if you want to see it /Kind of solution
 
 <details>
 <summary>Show Example</summary>

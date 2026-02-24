@@ -6,7 +6,7 @@ The pipe operator lets you pass the result of one function directly into the nex
 
 ---
 
-## Example if you want to see it
+## Example if you want to see it /Kind of solution
 
 <details>
 <summary>Show Example</summary>
@@ -43,7 +43,7 @@ Write a function to calculate the **area of a circle**: A = π × r²
 Example usage:
 
 <details>
-<summary>Show Example</summary>
+<summary>Show Example/Kind of Solution</summary>
 
     circle_area(r) = π * r^2
     

@@ -6,7 +6,7 @@ Julia was designed to solve the "two language problem" — you write code that's
 
 ---
 
-## Example if you want to see it
+## Example if you want to see it /Kind of solution
 
 <details>
 <summary>Show Example</summary>

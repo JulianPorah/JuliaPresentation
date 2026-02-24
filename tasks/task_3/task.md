@@ -6,7 +6,7 @@ Multiple Dispatch means you can write the **same function name** but with **diff
 
 ---
 
-## Example if you want to see it
+## Example if you want to see it /Kind of solution
 
 <details>
 <summary>Show Example</summary>
