@@ -25,6 +25,10 @@ In this task we want to visualize sales data in a graph.
 ### Task 1: Static Sales Plot
 
 1. Install and import the `Plots` package
+    - inside the julia terminal type "]"
+    - you will automaticly land inside the pkg terminal
+    - write add Plots to install the package
+    - if you want to use the package you need to write "using" and then the package name   
 2. Create an array with the months January to December as x-axis
 3. Come up with 12 sales numbers yourself and store them in an array as y-axis
 4. Plot the data using `plot()`
