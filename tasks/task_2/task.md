@@ -43,11 +43,14 @@ Write a function to calculate the **area of a circle**: A = π × r²
 
 Example usage:
 
+<details>
+<summary>Show Example</summary>
+
     π = 3.14159
     circle_area(r) = π * r^2
     
     5 |> circle_area  # calculates area for radius 5
-
+</details>
 This is how Julia makes scientific and mathematical code beautifully readable!
 
 ---

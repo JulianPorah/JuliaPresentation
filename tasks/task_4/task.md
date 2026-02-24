@@ -27,7 +27,7 @@ In this task we want to visualize sales data in a graph.
 1. Install and import the `Plots` package
 2. Create an array with the months January to December as x-axis
 3. Come up with 12 sales numbers yourself and store them in an array as y-axis
-4. Plot the data using `plot()` and give it a proper label and title
+4. Plot the data using `plot()`
 5. Also add a title, and labels for x and y axis
 
 ---
