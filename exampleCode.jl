@@ -101,7 +101,7 @@ struct test
 	valueThree::Int64
 end
 
-# With mutable struct you can not change the values inside
+# Mutable struct
 mutable struct testTwo
 	valueOne
 	valueTwo::String
