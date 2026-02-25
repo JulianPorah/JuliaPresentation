@@ -37,7 +37,7 @@ Julia lets you use **Greek letters like π**, which is perfect for mathematical 
 Write a function to calculate the **area of a circle**: A = π × r²
 
 - Write a function `circle_area(radius)` that uses Julia's built-in `π` constant in the calculation
-- Bonus: Write function for circumference (2πr)
+- BonusV2: Write function for circumference (2πr)
 - Note: Julia has π built-in! Type \pi and press Tab to get π
 - Fun fact: You can write 2π instead of 2*π
 Example usage:
@@ -50,8 +50,6 @@ Example usage:
     5 |> circle_area  # calculates area for radius 5
     
 </details>
-
-This is how Julia makes scientific and mathematical code beautifully readable!
 
 ---
 

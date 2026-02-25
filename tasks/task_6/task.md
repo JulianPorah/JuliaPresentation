@@ -3,7 +3,6 @@
 In this task we want to work with **Structs**, **custom types**, and **mutable structs** in Julia.
 
 Structs allow you to create your **own data types** by combining multiple values into one structured object.  
-Mutable structs let you **change the values of fields** after the object has been created.
 
 ---
 
@@ -41,6 +40,7 @@ Mutable structs let you **change the values of fields** after the object has bee
 4. Write a function called `car_info` that takes a `Car` as input and prints:
    - "This car is a BRAND from YEAR."
    - If the car is electric, also print: "It is electric."
+5. call the function with the created Cars
 ---
 
 ## Bonus (Optional)

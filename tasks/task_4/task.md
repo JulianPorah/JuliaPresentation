@@ -42,9 +42,9 @@ In this task we want to visualize sales data in a graph.
 Create an **animated plot** that shows a moving sine wave!
 
 1. Use the `@animate` to create an animation
-2. Create a loop that runs 100 frames
-3. In each frame:
-   - Create an x-axis from 0 to 10
+2. Create a loop that runs 100 iterations
+3. In each iteration:
+   - Create an x-axis from 0 to 10 with 0.1 steps
    - Calculate `sin(x + i/10)` where i is the frame number (this shifts the wave)
    - Plot the sine wave
 4. Save the animation as a GIF using `gif(anim, "wave.gif", fps=30)`
